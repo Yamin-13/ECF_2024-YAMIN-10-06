@@ -1,0 +1,69 @@
+/* headers style ================================================================*/
+header {
+    background: var(--header-color);
+    height: 85px;
+    position: relative;
+
+}
+
+/* header page 2 ==============*/
+.header_page_2 {
+    display: flex;
+    height: 10vh;
+    align-items: end;
+    position: relative;
+
+}
+
+.header_page_2_title {
+    color: white;
+    height: 23px;
+    margin-left: auto;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.option_icon {
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    margin-bottom: 13px;
+    margin-right: 16px;
+    /* display: none; */
+}
+
+/* header chrono page =========== */
+
+.back_icon {
+    cursor: pointer;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 2%;
+    display: none;
+
+}
+
+.header_chrono_page_back {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 6%;
+    display: none;
+}
+
+.filter_Img{
+    position: absolute;
+    margin-bottom: 15px;
+    margin-left: auto;
+    right: 15%;
+    display: none;
+
+}
