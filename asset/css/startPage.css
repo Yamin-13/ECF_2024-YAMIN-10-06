@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* start page =================== */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #metropoleLogoAix {
+    display: block;
+    position: absolute;
+    bottom: 70px;
+  }
+  
+  body .image {
+    display: block;
+  }
+  
+
+
+/* no connection page ============ */
+.no-connection-page {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    text-align: left;
+    max-width: 600px;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.dino {
+    width: 50px;
+    height: 50px;
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0;
+    text-align: start;
+
+}
+
+.container p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: start;
+
+}
+
+.container a {
+    color: var(--input-color);
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: start;
+
+}
+
+@media (min-width: 768px) {
+
+    #metropoleLogo,
+    #metropoleLogoAix {
+        display: none;
+    }
+
+}
+
+/* media query to hide content on mobile devices */
+@media (max-width: 768px) {
+    .container {
+        display: none;
+    }
+
+}
