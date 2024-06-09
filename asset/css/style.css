@@ -1,6 +1,11 @@
 @import url(./header.css);
 @import url(./myTitles.css);
 @import url(./navBar.css);
+@import url(./popUp.css);
+@import url(./titleUse.css);
+@import url(./intructionAndControls.css);
+@import url(./buyTittles.css);
+@import url(./formAuthentifictionCard.css);
 
 
 /* variable css ========== */
@@ -8,6 +13,7 @@
     --bg-color: #f1f1f1;
     --input-color: #323946;
     --text-color: #444;
+    --button-color: #d33a20;
     --header-color: linear-gradient(100deg, #fd8230, #e9511c);
 }
 

@@ -1,0 +1,72 @@
+/* timer page =======================================*/
+.current-use {
+    text-align: center;
+    margin: 20px 0;
+    /* display: none; */
+}
+
+.in-use {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 35px;
+}
+
+.in-use h3 {
+    color: var(--text-color);
+font-size: 15px;
+}
+
+.sand {
+    width: 28px;
+    height: 30px;
+
+}
+
+.ticket-overlay p {
+    margin: 5px 0;
+    font-size: 14px;
+
+}
+
+.ticket-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#image-timer {
+    width: 262px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: 3px solid white;
+
+}
+
+.ticket-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background : black;
+    color: white;
+    padding: 10px 0;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+
+}
+
+.countdown {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+

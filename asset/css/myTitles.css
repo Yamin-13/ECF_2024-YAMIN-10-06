@@ -1,0 +1,92 @@
+.my_tittle {
+    height: 90vh;
+    position: relative;
+    display: none;
+
+}
+
+/* page 2 ====================*/
+.page_2_title {
+    font-size: 15px;
+    color: var(--text-color);
+    text-align: center;
+    padding-top: 280px;
+    line-height: 3.5;
+}
+
+
+
+.page_2_para {
+    padding: 0 40px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#page_2_by_a_title {
+    background-color: var(--button-color);
+    width: 340px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    margin: 26px;
+}
+
+/* page 2 use =================== */
+.page_2_use_title {
+    text-align: start;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 20px;
+    color: var(--text-color);
+
+}
+
+.page_2_use_img_ticket {
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page_2_use_travel_description {
+    position: absolute;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-color);
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.page_2_use_ticket_available {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 211px;
+}
+
+#page_2_use_buy_a_title {
+    background-color: var(--button-color);
+    width: 340px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    bottom: 240px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 120px;
+}
