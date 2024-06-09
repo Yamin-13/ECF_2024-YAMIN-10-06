@@ -1,0 +1,202 @@
+/* pop-pup use title ================ */
+#pop-up {
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0;
+}
+
+#pop-up h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: start;
+}
+
+#pop-up p {
+    margin: 10px 0;
+    font-size: 1em;
+    text-align: start;
+}
+
+.means-of-transport {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+    height: 50px;
+}
+
+.means-of-transport p {
+    margin: 0;
+    font-size: 1em;
+    flex: 1;
+}
+
+.means-of-transport img {
+    width: 20px;
+    height: 20px;
+}
+
+.pop-up,
+span {
+    font-weight: bold;
+}
+
+#use-title {
+    background-color: #d33a20;
+    width: 310px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* pop-up for validate title ============= */
+#validate-title {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 29px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+    height: 450px;
+    z-index: 1;
+}
+
+#validate-title h3 {
+    color: var(--text-color);
+    margin-top: -10px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.p-date {
+    background-color: var(--bg-color);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: start;
+    margin: 10px 0;
+    font-size: 14px;
+    width: 220px;
+}
+
+.validation-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.totalOrder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+      padding: 10px 0;
+}
+
+.validation-description {
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.validation-description span {
+    font-weight: normal;
+    font-size: 12px;
+    color: #777;
+}
+
+.validation-time {
+    text-align: right;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.correspondance-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.correspondance-control img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.correspondance-control p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.parent-buttons-controllers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 60px;
+    padding-top: 127px;
+}
+
+#controls-buttons {
+    background-color: #d33a20;
+    width: 317px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+}
+
+/* pop-up window with buy button ================== */
+.buyBusTittle {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 160px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px;
+    display: block;
+    /* display: none; */
+}
+
+#buyButton {
+    background-color: #d33a20;
+    width: 350px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+
+}
+
+.totalTitle {
+    margin-left: 270px;
+    margin-bottom: 20px;
+}

@@ -11,7 +11,7 @@
 <body>
     <!-- headers ---------------------------------------------->
     <header>
-        <nav class="header_page_2"  >
+        <nav class="header_page_2">
             <h2 class="header_page_2_title">E-Tickets</h2>
             <a class="header_chrono_page_back" href="#">E-Tickets</a>
             <img class="back_icon" src="./asset/img/bouton-fleche.webp" alt="back">
@@ -19,40 +19,268 @@
             <img class="option_icon" src="./asset/img/optionPoints.png">
         </nav>
     </header>
-<main>
-<section class="my_tittle">
-    <!-- <h3>Aucun titre à utiliser.</h3>
-    <p>Vous pouvez acheter des titres pour voyager sur le réseau</p>
-    <button id="by-a-title" type="submit"> Acheter des titres</button> -->
-</section>
+    <main>
+        <section class="my_tittle">
+            <!-- page 2 ------------------------>
+            <!-- <h3 class="page_2_title">Aucun titre à utiliser.</h3>
+            <p class="page_2_para">Vous pouvez acheter des titres pour voyager sur le réseau</p>
+            <button id="page_2_by_a_title">Acheter des titres</button> -->
+            <!-- page 2 use -------------------->
+            <!-- <h3 class="page_2_use_title">SUR MON TELEPHONE</h3>
+            <img class="page_2_use_img_ticket" id="ticket_Image" src="/asset/img/ticket-bus.png">
+            <p class="page_2_use_travel_description">1 VOYAGE AIX EN BUS</p>
+            <p class="page_2_use_ticket_available">1 leticket disponible</p>
+            <button id="page_2_use_buy_a_title">Acheter des titres</button> -->
+            <!-- page 2 pop up ----------------->
+            <!-- <div id="pop-up">
+                <h2>1 VOYAGE AIX EN BUS</h2>
+                <p><span>1</span> voyage disponible</p>
+                <p>Vous utilisez</p>
+                <div class="means-of-transport">
+                    <p>Le Bus</p>
+                    <img src="asset/img/coche.png" alt="Check Mark">
+                </div>
+                <button id="use-title">Utiliser</button>
+            </div> -->
+            <!-- pop-up for validate titlle ----->
+            <!-- <div id="validate-title">
+                <h3>Mes Validations</h3>
+                <p class="p-date">Aujourd'hui - Dimanche 2 juin</p>
+                <table class="validation-table">
+                    <tr class="totalOrder">
+                        <td class="validation-description">1 validation <br><span>1 VOYAGE EN BUS</span></td>
+                        <td class="validation-time">22:58</td>
+                    </tr>
+                </table>
+                <div class="correspondance-control">
+                    <img src="/asset/img/point-dinterrogation.png" alt="point d'interrogation">
+                    <p id="p-instructions">Correspondance, accès au métro, Contrôle</p>
+                </div>
+                <div class="parent-buttons-controllers">
+                    <button class="button-bus-controller" id="controls-buttons">Métro ou Contrôle</button>
+                    <button class="button-take-a-correspondance" id="controls-buttons">Prendre une
+                        correspondance</button>
+                </div>
+            </div> -->
+            <!-- title use timer page ------------>
+            <!-- <div class="current-use" id="timer-page">
+                <div class="in-use">
+                    <h3>En cours d'utilisation</h3>
+                    <img class="sand" src="asset/img/sablier.webp" alt="sand">
+                </div>
+                <div class="ticket-container">
+                    <img id="image-timer" src="asset/img/LETICKET-RTM.webp" alt="Le Ticket" class="ticket-image">
+                    <div class="ticket-overlay">
+                        <p>Fin de validité:</p>
+                        <p class="countdown" id="countdown-timer"></p>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <!-- instructions pages ----------------------------------------------------->
+        <!-- <div id="instructions">
+            <div class="instruction">
+                <div class="instruction-title">
+                    <span class="instruction-number">1</span>Pour prendre une correspondance :
+                </div>
+                <p>Sélectionnez votre titre en cours de validité et cliquez sur le bouton « Prendre une correspondance »
+                </p>
+                <p>Pour les titres RTM, indiquez si vous voyagez dans le Métro ou dans un autre mode de transport (bus,
+                    tramway, ...)</p>
+                <p>Cliquez sur le bouton « Utiliser » pour confirmer votre correspondance</p>
+                <p>Si vous voyagez dans un bus ou un tramway, scannez le QR Code affiché à côté de chaque porte pour
+                    valider votre correspondance</p>
+                <p>Si vous voyagez dans le métro, cliquez sur le bouton « Métro ou Contrôle » et présentez votre QR Code
+                    au lecteur optique leticket présent sur le portillon</p>
+                <p>Le temps de validité de votre titre vous est indiqué sur l'écran « Votre voyage »</p>
+            </div>
+            <div class="instruction">
+                <div class="instruction-title">
+                    <span class="instruction-number">2</span>Pour ouvrir le portillon d'accès au métro :
+                </div>
+                <p>Cliquez sur le bouton « Métro ou Contrôle » et présentez votre QR Code au lecteur optique leticket
+                    présent sur le portillon</p>
+            </div>
+            <div class="instruction">
+                <div class="instruction-title">
+                    <span class="instruction-number">3</span>En cas de contrôle :
+                </div>
+                <p>Sélectionnez votre titre en cours de validité, affichez le QR Code via le bouton « Métro ou Contrôle
+                    » et présentez le au contrôleur</p>
+            </div>
+        </div> -->
+        <!-- QR code page  ---------------------------------------------------------->
+        <!-- <section id="qr-code-page">
+            <div class="header">
+                <span class="close-button">✕</span>
+            </div>
+            <div class="qr-code-container">
+                <img src="asset/img/qrCode.png" alt="QR Code" class="qr-code">
+                <p class="refresh-time">Dernier rafraîchissement à 22:58</p>
+            </div>
+            <div class="ticket-info">
+                <h3>1 VOYAGE AIX EN BUS</h3>
+                <div class="validation-info">
+                    <p class="validation-date-title">DATE DE VALIDATION</p>
+                    <p class="validation-date">02/06/2024 à 22:58</p>
+                </div>
+                <div class="validity-info">
+                    <p class="validity-date-title">FIN DE VALIDITÉ</p>
+                    <p class="validity-date">02/06/2024 à 23:58</p>
+                </div>
+            </div>
+        </section> -->
 
-</main>
-<footer id="nav-bar">
-    <nav >
-        <div class="navIcon">
-            <div>
-                <img src="/asset/img/acceuil-icon.png" alt="">
-                <span>Accueil</span>
+        <!-- buy titles  -------------------------------------------------------------->
+
+        <!-- <div class="buy-container">
+            <table>
+                <tr> -->
+        <!-- <td class="icon-cell"><img src="./asset/img/my-titles.png" alt="Ticket Icon"></td>
+                    <td class="info-cell">
+                        <div class="ticket-title">1 VOYAGE AIX EN BUS</div>
+                        <div class="ticket-description">Valable 60 minutes</div>
+                    </td> -->
+        <!-- <td class="controls-price-cell">
+                        <div class="controls-cell">
+                            <button class="button_negativ">-</button>
+                            <span class="quantity">0</span>
+                            <button class="button_positiv">+</button>
+                        </div>
+                        <div class="price-cell">11,20 €</div>
+                    </td> -->
+        <!-- condition page ------->
+        <!-- <td class="orderLabel"><b>Total de la commande :</b></td>
+                    <td class="orderValue"><b>1,20 €</b></td> -->
+        <!-- </tr> -->
+        <!-- <tr class="separator">
+                    <td colspan="4"></td>
+                </tr> -->
+        <!-- <tr> -->
+        <!-- <td class="icon-cell"><img src="./asset/img/my-titles.png" alt="Ticket Icon"></td> -->
+        <!-- <td class="info-cell">
+                        <div class="ticket-title">10 VOYAGES AIX EN BUS</div>
+                        <div class="ticket-description">Valable 60 minutes sur Aix en Bus<br>Multi-validable</div>
+                    </td>
+                    <td class="controls-price-cell">
+                        <div class="controls-cell">
+                            <button class="button_negativ">-</button>
+                            <span class="quantity">0</span>
+                            <button class="button_positiv">+</button>
+                        </div>
+                        <div class="price-cell">90,00 €</div>
+                    </td> -->
+        <!-- conditions page ----------->
+        <!-- <td class="orderLabel">1 VOYAGE AIX EN BUS</td>
+                    <td class="orderValue">1 x 1,20 €</td>
+                <tr class="separator">
+                    <td colspan="4"></td>
+                </tr>
+                </tr> -->
+        <!-- </table> -->
+        <!-- pop-up window with payments button -->
+        <!-- <div class="buyBusTittle">
+                <h4 class="totalTitle">Total: <span id="total">0€</span></h4>
+                <div class="buyButton">
+                    <button id="buyButton" type="submit">Acheter</button>
+                </div>
+            </div> -->
+        <!-- <div class="conditions">
+                <input type="checkbox" id="conditionsCheckbox">
+                <label for="conditionsCheckbox">J'ai lu et j'accepte les <a href="#">conditions générales de
+                        vente</a></label>
             </div>
-            <div>
-                <img src="/asset/img/hourly-icon.png" alt="">
-                <span>Horaires</span>
+            <div class="buyButtonConditions">
+                <button id="buyButtonConditions">Payer</button>
+            </div> -->
+        <!-- </div> -->
+
+
+        <!-- payment registration page --------->
+        <section id="payment-container">
+            <div class="logoWithLanguage">
+                <img class="logo" src="/asset/img/marque-la-metropole.png" alt="La Metropole Mobilité">
+                <button id="changeLangage">FR</button>
             </div>
-            <div>
-                <img src="/asset/img/my-titles.png" alt="">
-                <span>Mes titres</span>
+            <p class="amount">Montant : <span id="paymentAmount">0,00 EUR</span></p>
+            <!-- payment form -->
+            <form class="payment-form" action="#">
+                <div class="form-group">
+                    <label for="card-number">Numéro de carte</label>
+                    <div class="input-group">
+                        <input type="text" id="card-number" name="card-number">
+                        <button id="help-card-number" type="button" class="help-button">?</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="expiry-month">Expire fin</label>
+                    <div class="input-group">
+                        <select id="expiry-month" name="expiry-month">
+                            <option class="option" value="mois">mois</option>
+                        </select>
+                        <select id="expiry-year" name="expiry-year">
+                            <option class="option" value="année">année</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="cvc">Cryptogramme visuel</label>
+                    <div class="input-group">
+                        <input type="text" id="cvc" name="cvc">
+                        <button id="help-cvc" type="button" class="help-button">?</button>
+                    </div>
+                </div>
+                <button id="submit-button">VALIDER</button>
+            </form>
+            <!-- paiement option -->
+            <div class="payment-options">
+                <img src="/asset/img/visa.png" alt="Visa">
+                <img id="paiement-securisé" src="/asset/img/paiement-securisé.png" alt="Paiement Sécurisé">
+                <img src="/asset/img/master-card.png" alt="Mastercard">
             </div>
-            <div>
-                <img src="/asset/img/trafic-info.png" alt="">
-                <span>Infos trafic</span>
+            <!-- legal notices -->
+            <div class="legalNotices">
+                <a class="cancel-and-back" href="#">Annuler et retourner à la boutique</a>
+                <div class="legalNoticesLogos">
+                    <img src="/asset/img/pay-zen.png" alt="PayZen">
+                    <img src="/asset/img/pci.png" alt="PCI DSS Compliant">
+                </div>
+                <div class="legal">
+                    <p>Copyright Lyra © 2024</p>
+                    <a href="#">Mentions légales</a>
+                </div>
             </div>
-            <div>
-                <img src="/asset/img/menu.png" alt="">
-                <span>Menu</span>
+        </section>
+
+
+
+    </main>
+    <footer id="nav-bar">
+        <nav>
+            <div class="navIcon">
+                <div>
+                    <img src="/asset/img/acceuil-icon.png" alt="">
+                    <span>Accueil</span>
+                </div>
+                <div>
+                    <img src="/asset/img/hourly-icon.png" alt="">
+                    <span>Horaires</span>
+                </div>
+                <div>
+                    <img src="/asset/img/my-titles.png" alt="">
+                    <span>Mes titres</span>
+                </div>
+                <div>
+                    <img src="/asset/img/trafic-info.png" alt="">
+                    <span>Infos trafic</span>
+                </div>
+                <div>
+                    <img src="/asset/img/menu.png" alt="">
+                    <span>Menu</span>
+                </div>
             </div>
-        </div>
-    </nav>
-</footer>
+        </nav>
+    </footer>
     <script src="/asset/js/header.js"></script>
 </body>
 

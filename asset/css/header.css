@@ -3,7 +3,7 @@ header {
     background: var(--header-color);
     height: 85px;
     position: relative;
-
+/* display: none; */
 }
 
 /* header page 2 ==============*/
@@ -34,7 +34,7 @@ header {
     margin-left: auto;
     margin-bottom: 13px;
     margin-right: 16px;
-    /* display: none; */
+    display: none;
 }
 
 /* header chrono page =========== */
@@ -44,7 +44,7 @@ header {
     margin-bottom: 15px;
     position: absolute;
     left: 2%;
-    display: none;
+    /* display: none; */
 
 }
 
@@ -56,7 +56,7 @@ header {
     margin-bottom: 15px;
     position: absolute;
     left: 6%;
-    display: none;
+    /* display: none; */
 }
 
 .filter_Img{

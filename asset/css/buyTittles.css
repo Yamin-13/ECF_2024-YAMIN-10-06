@@ -1,0 +1,155 @@
+/* buy title pages ============================================== */
+/* ticket selection page =================== */
+
+/* Buy Container */
+.buy-container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.icon-cell img {
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+
+.info-cell {
+    flex-grow: 1;
+}
+
+.ticket-title {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.ticket-description {
+    font-size: 12px;
+    color: #777;
+}
+
+.controls-price-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls-cell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_negativ,
+.button_positiv {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button_positiv {
+    background-color: var(--button-color);
+    color: white;
+}
+
+.quantity {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.price-cell {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.table-divider {
+    border-bottom: 1px solid #000000;
+}
+
+.separator td {
+    border-top: 1px solid #ccc;
+    
+    padding: 0;
+    
+}
+
+/* General Conditions of paiement page ======= */
+.orderLabel,
+.orderValue {
+    padding: 10px;
+
+}
+
+.orderLabel {
+    text-align: left;
+
+}
+
+.orderValue {
+    text-align: right;
+}
+
+.conditions {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.conditions input {
+    margin-left: 10px;
+}
+
+.conditions label {
+    font-size: 11px;
+    margin: 20px;
+
+}
+
+.conditions a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.buyButtonConditions {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+
+#buyButtonConditions {
+    background-color: #ec9687;
+    width: 350px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    transform: translateX(-50%);
+    margin-left: 50%;
+
+}

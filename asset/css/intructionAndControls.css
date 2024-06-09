@@ -1,0 +1,112 @@
+/* instructions page =============================*/
+
+#instructions {
+    padding: 15px;
+    /* display: none; */
+
+}
+
+.instruction {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.instruction-number {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.instruction-title {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.instruction p {
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0 0 34px;
+    font-weight: 600;
+}
+
+/* qr code page ================================== */
+#qr-code-page {
+    width: 100%;
+    max-width: 400px;
+    text-align: start;
+    /* display: none; */
+    
+}
+
+.header {
+    position: relative;
+    padding: 10px;
+    text-align: left;
+    margin-top: 37px;
+}
+
+.close-button {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 20px;
+    top: -30px;
+}
+
+.qr-code-container {
+    padding: 10px 0;
+}
+
+.qr-code {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.refresh-time {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ticket-info {
+    padding: 10px 20px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+}
+
+.ticket-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.validation-info,
+.validity-info {
+    margin-top: 10px;
+}
+
+.validation-date-title,
+.validity-date-title {
+    font-size: 12px;
+    color: #888;
+}
+
+.validation-date,
+.validity-date {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
