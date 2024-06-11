@@ -4,19 +4,22 @@ self.addEventListener('install', e => {
         return cache.addAll([
           '/',
           '/index.html',
-          '/styles.css',
-          '/script.js',
-          'img/laurier-rose.webp'
+          '/asset/css/startPage.css',
+          '/asset/js/index-redirection.js',
+          '/asset/img/logoLaMetropole.png',
+          '/asset/img/logoMetropoleAix.png',
+          '/asset/img/dinosaur-hors-ligne.png',
+          '/manifest.json',
+          '/service-worker.js'
         ]);
       })
     );
-  });
-  
-  self.addEventListener('fetch', e => {
+});
+
+self.addEventListener('fetch', e => {
     e.respondWith(
       caches.match(e.request).then(response => {
         return response || fetch(e.request);
       })
     );
-  });
-  
+});
