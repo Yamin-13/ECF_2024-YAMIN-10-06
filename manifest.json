@@ -1,4 +1,9 @@
 {
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FFFFFF",
     "short_name": "Mobilité",
     "name": "La Métropole Mobilité",
     "icons": [
@@ -22,23 +27,6 @@
             "type": "image/png",
             "sizes": "512x512"
         }
-    ],
-    "start_url": "/index.html",
-    "background_color": "#FFFFFF",
-    "display": "standalone",
-    "scope": "/",
-    "theme_color": "#FFFFFF",
-    "screenshots": [
-        {
-            "src": "asset/img/Capture d’écran du 2024-06-03 00-08-21.png",
-            "sizes": "540x720",
-            "type": "image/png",
-            "form_factor": "wide"
-        },
-        {
-            "src": "asset/img/screenshot2.png",
-            "sizes": "540x720",
-            "type": "image/png"
-        }
     ]
+    
 }
