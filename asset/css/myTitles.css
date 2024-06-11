@@ -1,11 +1,15 @@
 .my_tittle {
     height: 90vh;
     position: relative;
-    display: none;
+    /* display: none; */
 
 }
 
 /* page 2 ====================*/
+/* .page_2{
+    display: none;
+} */
+
 .page_2_title {
     font-size: 15px;
     color: var(--text-color);
@@ -13,8 +17,6 @@
     padding-top: 280px;
     line-height: 3.5;
 }
-
-
 
 .page_2_para {
     padding: 0 40px;
@@ -38,12 +40,17 @@
 }
 
 /* page 2 use =================== */
+.page_2_use_container{
+    display: none;
+}
 .page_2_use_title {
     text-align: start;
     font-size: 13px;
     font-weight: 600;
     padding: 20px;
     color: var(--text-color);
+    /* position: absolute; */
+    /* display: none; */
 
 }
 
@@ -52,6 +59,16 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     left: 50%;
     transform: translateX(-50%);
+    /* display: none; */
+
+}
+
+.page_2_use_img_ticket_used{
+    position: absolute;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
 }
 
 .page_2_use_travel_description {
@@ -62,6 +79,7 @@
     top: 250px;
     left: 50%;
     transform: translateX(-50%);
+    /* display: none; */
 
 }
 
@@ -71,6 +89,8 @@
     color: var(--text-color);
     text-align: center;
     margin-top: 211px;
+    /* display: none; */
+
 }
 
 #page_2_use_buy_a_title {
@@ -89,4 +109,6 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 120px;
+    /* display: none; */
+
 }

@@ -7,7 +7,7 @@ header {
 }
 
 /* header page 2 ==============*/
-.header_page_2 {
+.header_page_nav {
     display: flex;
     height: 10vh;
     align-items: end;
@@ -21,11 +21,11 @@ header {
     margin-left: auto;
     margin-bottom: 15px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 17px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
+    white-space: nowrap;
 }
 
 .option_icon {
@@ -34,7 +34,7 @@ header {
     margin-left: auto;
     margin-bottom: 13px;
     margin-right: 16px;
-    display: none;
+    /* display: none; */
 }
 
 /* header chrono page =========== */
@@ -44,7 +44,7 @@ header {
     margin-bottom: 15px;
     position: absolute;
     left: 2%;
-    /* display: none; */
+    display: none;
 
 }
 
@@ -56,7 +56,7 @@ header {
     margin-bottom: 15px;
     position: absolute;
     left: 6%;
-    /* display: none; */
+    display: none;
 }
 
 .filter_Img{
@@ -66,4 +66,12 @@ header {
     right: 15%;
     display: none;
 
+}
+
+.close_img{
+    cursor: pointer;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 2%;
+    display: none;
 }

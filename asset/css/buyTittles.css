@@ -2,11 +2,20 @@
 /* ticket selection page =================== */
 
 /* Buy Container */
-.buy-container {
+.buy_container {
     width: 100%;
     padding: 0 20px;
     box-sizing: border-box;
+    display: none;
 }
+
+.display_table{
+    display: none;
+}
+
+/* .buy_table{
+    display: none;
+} */
 
 table {
     width: 100%;
@@ -87,15 +96,24 @@ td {
 
 .separator td {
     border-top: 1px solid #ccc;
-    
+
     padding: 0;
-    
+
 }
 
 /* General Conditions of paiement page ======= */
-.orderLabel,
-.orderValue {
+ .total_page{
+    display: none;
+}
+
+ /* .total_table {
+    display: none;
+}   */
+
+.orderLabel, .orderValue
+ {
     padding: 10px;
+    /* display: none; */
 
 }
 
@@ -112,6 +130,7 @@ td {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    /* display: none; */
 }
 
 .conditions input {
@@ -151,5 +170,5 @@ td {
     text-align: center;
     transform: translateX(-50%);
     margin-left: 50%;
-
+    /* display: none; */
 }

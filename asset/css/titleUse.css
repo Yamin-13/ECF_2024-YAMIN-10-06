@@ -2,7 +2,7 @@
 .current-use {
     text-align: center;
     margin: 20px 0;
-    /* display: none; */
+    display: none;
 }
 
 .in-use {
