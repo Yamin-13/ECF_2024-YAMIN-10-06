@@ -2,31 +2,43 @@
     "short_name": "Mobilité",
     "name": "La Métropole Mobilité",
     "icons": [
-      {
-        "src": "icons/icon-192x192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "icons/icon-256x256.png",
-        "type": "image/png",
-        "sizes": "256x256"
-      },
-      {
-        "src": "icons/icon-384x384.png",
-        "type": "image/png",
-        "sizes": "384x384"
-      },
-      {
-        "src": "icons/icon-512x512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
+        {
+            "src": "asset/img/petales-de-fleur(2).png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "asset/img/icon-256x256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "asset/img/icon-384x384.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "asset/img/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
     ],
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "background_color": "#FFFFFF",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#FFFFFF"
-  }
-  
+    "theme_color": "#FFFFFF",
+    "screenshots": [
+        {
+            "src": "asset/img/Capture d’écran du 2024-06-03 00-08-21.png",
+            "sizes": "540x720",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "asset/img/screenshot2.png",
+            "sizes": "540x720",
+            "type": "image/png"
+        }
+    ]
+}
