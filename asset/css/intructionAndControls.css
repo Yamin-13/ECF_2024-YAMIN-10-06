@@ -1,8 +1,8 @@
 /* instructions page =============================*/
 
 #instructions {
-    padding: 15px;
-    /* display: none; */
+    padding: 6px;
+    display: none;
 
 }
 
@@ -40,11 +40,12 @@
 }
 
 /* qr code page ================================== */
-#qr-code-page {
+#qr_code_page {
     width: 100%;
     max-width: 400px;
     text-align: start;
-    /* display: none; */
+    z-index: 2;
+    display: none;
     
 }
 
